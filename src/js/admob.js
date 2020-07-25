@@ -121,6 +121,7 @@ export function setOptions(options, successCallback, failureCallback) {
           break
         case 'bannerAtTop':
         case 'overlap':
+        case 'marginTop':
         case 'offsetTopBar':
           banner._config[k] = options[k]
           break
