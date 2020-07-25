@@ -68,7 +68,7 @@ public class AdMobConfig {
      * Whether or not the banner will overlap the webview instead of push it up or down
      */
     public boolean bannerOverlap = false;
-    public Number marginTop = 0;
+    public int marginTop = 0;
     public boolean offsetTopBar = false;
 
     // Interstial
@@ -107,7 +107,7 @@ public class AdMobConfig {
             this.offsetTopBar = options.optBoolean(OPT_OFFSET_TOPBAR);
         }
         if (options.has(MARGIN_TOP)) {
-            this.marginTop = options.optNumber(MARGIN_TOP);
+            this.marginTop = options.optInt(MARGIN_TOP);
         }
         if (options.has(OPT_IS_TESTING)) {
             this.isTesting = options.optBoolean(OPT_IS_TESTING);
