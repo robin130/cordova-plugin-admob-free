@@ -7,6 +7,10 @@
 *.lock
 node_modules/
 coverage/
-www/
+docs/
+examples/
+tests/
+coverage/
+#www/
 gh-pages/
 package-lock.json
