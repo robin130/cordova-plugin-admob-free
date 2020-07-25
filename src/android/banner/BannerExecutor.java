@@ -191,6 +191,7 @@ public class BannerExecutor extends AbstractExecutor {
                         RelativeLayout.LayoutParams params2 = new RelativeLayout.LayoutParams(
                                 RelativeLayout.LayoutParams.MATCH_PARENT,
                                 RelativeLayout.LayoutParams.WRAP_CONTENT);
+                        params2.setMargins(0, 80, 0, 0);
                         params2.addRule(plugin.config.bannerAtTop ? RelativeLayout.ALIGN_PARENT_TOP : RelativeLayout.ALIGN_PARENT_BOTTOM);
 
                         if (adViewLayout == null) {
